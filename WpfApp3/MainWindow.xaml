@@ -13,6 +13,12 @@
 
     </Window.Resources>
     <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFFDCDC"/>
+                <GradientStop Color="#FFFF9B9B" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="490" Height="150">
             <Label Content="Введите имя, фамилию и дату рождения сотрудника" Margin="30 0 0 0" FontSize="15" FontWeight="Black"/>
             <StackPanel Orientation="Horizontal">
